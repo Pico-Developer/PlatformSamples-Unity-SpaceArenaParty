@@ -1,0 +1,21 @@
+
+{
+    "displayName" : "Pico Transport for NGO",
+    "name"        : "com.community.netcode.transport.pico",
+    "version"     : "0.0.6",
+    "description" : "pico transport for NGO, using pico platform service\n\nChangeList:\n\nversion 0.0.6 \n\tadd DestnationScene, demo of create private room, and invite other player\n",
+    "keywords"    : [
+    ],
+    "category"    : "",
+    "links"       : [
+        {
+            "label" : "\u8BF4\u660E\u6587\u6863",
+            "url"   : "https://bytedance.feishu.cn/docx/HQagdY9hDo00ASx1ij0cm8N2nWd"
+        }
+    ],
+    "unitySinceBuild" : "2020.*",
+    "unityUntilBuild" : "*",
+    "upmDependencies" : {
+        "com.unity.netcode.gameobjects" : "1.2.0"
+    }
+}
