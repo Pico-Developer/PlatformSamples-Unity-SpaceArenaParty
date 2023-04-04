@@ -70,6 +70,7 @@ namespace SpaceArenaParty.ApplicationLifeCycle
                 }
                 case MultiPlayerManager.GameState.Error:
                 {
+                    if (NetworkManager.Singleton == null) break;
                     NetworkManager.Singleton.OnServerStarted -= OnHostStarted;
                     NetworkManager.Singleton.OnClientConnectedCallback -= OnClientConnected;
                     if (lastState == MultiPlayerManager.GameState.InRoom) StartCoroutine(LaunchToPrivateLobby());
@@ -181,14 +182,6 @@ namespace SpaceArenaParty.ApplicationLifeCycle
         private void HandleJoinIntentReceived(Message<PresenceJoinIntent> message)
         {
             var details = message.Data;
-            Debug.Log("------JOIN INTENT RECEIVED------");
-            Debug.Log("Destination:       " + details.DestinationApiName);
-            Debug.Log("Lobby Session ID:  " + details.LobbySessionId);
-            Debug.Log("Match Session ID:  " + details.MatchSessionId);
-            Debug.Log("Deep Link Message: " + details.DeeplinkMessage);
-            Debug.Log("--------------------------------");
-
-            // StartCoroutine(JoinToGroupPresence(details));
             SetGroupPresenceState(
                 details.DestinationApiName,
                 LocalPlayerState.lobbyID,
