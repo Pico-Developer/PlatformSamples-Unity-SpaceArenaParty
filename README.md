@@ -1,3 +1,5 @@
+![image](doc/banner.png)
+
 <h1 align="center">
 <span>🎈Space Arena Party</span>
 </h1>
@@ -20,3 +22,13 @@ Space Arena Party is a multiplayer social game demo that integrates the "Friends
 https://p9-arcosite.byteimg.com/obj/tos-cn-i-goo7wpa0wc/8dca694b2ba1435e9488902e407290e8
 
 Read more on [our doc](https://developer-global.pico-interactive.com/document/unity/social-interaction-demo)
+
+## Contributing
+We welcome contributions to the project! If you would like to contribute, please follow the steps below:
+1. Fork the repository.
+2. Create a new branch for your feature or bugfix.
+3. Commit your changes to the new branch.
+4. Create a pull request and provide a detailed description of your changes.
+
+## License
+This project is licensed under the MIT License. See the LICENSE file for details.

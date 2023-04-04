@@ -119,8 +119,9 @@ namespace SpaceArenaParty.ApplicationLifeCycle
 #if UNITY_EDITOR
             PCDebugAsyncInitialize().OnComplete(OnPlatformInitialized);
 #else
-        CoreService.AsyncInitialize().OnComplete(OnPlatformInitialized);
+            CoreService.AsyncInitialize().OnComplete(OnPlatformInitialized);
 #endif
+
             yield return new WaitUntil(() => LocalPlayerState.username != "");
 
             Debug.Log($"launchType {_launchType} username {LocalPlayerState.username}");
@@ -223,7 +224,6 @@ namespace SpaceArenaParty.ApplicationLifeCycle
             return;
         }
 #endif
-
             Debug.Log("PICO Platform SDK initialized successfully");
 #if UNITY_EDITOR
             _launchType = LaunchType.Normal;
