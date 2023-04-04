@@ -1,0 +1,27 @@
+﻿{
+  "name": "PICO.Platform.Editor",
+  "references": [
+    "Unity.XR.PICO.Editor",
+    "Unity.XR.PICO",
+    "Unity.XR.Management",
+    "Unity.XR.Management.Editor"
+  ],
+  "optionalUnityReferences": [],
+  "includePlatforms": [
+    "Editor"
+  ],
+  "excludePlatforms": [],
+  "allowUnsafeCode": false,
+  "versionDefines": [
+    {
+      "name": "com.unity.xr.management",
+      "expression": "",
+      "define": "USING_XR_MANAGEMENT"
+    },
+    {
+      "name": "com.unity.xr.pico",
+      "expression": "",
+      "define": "USING_XR_SDK_PICO"
+    }
+  ]
+}
