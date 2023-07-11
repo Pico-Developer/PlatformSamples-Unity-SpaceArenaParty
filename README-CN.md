@@ -46,3 +46,10 @@ Demo 主要由以下模块组成：
 ## 了解更多
 若想了解更多 Space Arena Party 项目的信息，包括详细的体验步骤说明、多人游戏调试方案说明等，参阅《[社交互动 - Demo](https://developer-cn.pico-interactive.com/document/unity/social-interaction-demo/)》文档。
 
+## 贡献你的想法
+欢迎为此 Demo 贡献你的想法。步骤如下：
+
+1. Fork 该仓库。
+2. 为你的功能或 Bug 修复创建一个新的分支。
+3. 将你的改动提交至该分支。
+4. 创建 Merge Request 并提供改动说明。
