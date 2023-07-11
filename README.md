@@ -36,7 +36,7 @@ The demo is made up of the following modules:
 | Multiplayer | Users can get multiplayer experience, including inviting friends to their current rooms, joining their friends, and more. |
 | Social System | The demo implements the SDK's Friends service. After login, users can view their friend lists, check if their friends are online, and invite friends via the launch pad. |
 
-## Complete procedure
+## Complete procedure for experiencing the demo
 
 Below is the overall procedure for experiencing the demo:
 1. Pull the project.
