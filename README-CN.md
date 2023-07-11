@@ -13,6 +13,10 @@
  
 ![image](https://github.com/Pico-Developer/PlatformSamples-Unity-SpaceArenaParty/assets/110143438/d2239b63-e0e7-4a67-9d2b-0cdb3bde2c3f)<h1 align="center">
 
+## 环境要求
+
+Unity 编辑器为 2021.3.22 版本，2022 版本暂不支持。
+
 ## 视频展示
 以下为 Demo 展示视频。你可以通过视频浏览 Demo 场景并了解 Demo 的主要功能：
 
