@@ -55,7 +55,7 @@ Below are the methods you can use to debug the multiplayer capability:
 
 ## Learn more
 
-For detailed instructions on the procedure for experiencing the demo, more information on multiplayer capability debugging, etc., refer to the "[Social Interaction: Demo](https://developer-global.pico-interactive.com/document/unity/social-interaction-demo/)" article.
+For detailed instructions on the procedure for experiencing the demo, more information on multiplayer capability debugging, gaming workflows, etc., refer to the "[Social Interaction: Demo](https://developer-global.pico-interactive.com/document/unity/social-interaction-demo/)" article.
 
 ## Contributing
 We welcome contributions to the project! If you would like to contribute, please follow the steps below:
